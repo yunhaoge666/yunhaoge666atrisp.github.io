@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="nav-avatar">
+                    <img src="img/唐三.jpg" alt="头像" class="nav-avatar-photo">
+                </div>
+                <div class="logo">张运濠的网站</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是张运濠</h1>
+            <p>前端开发者 | 网页设计师 | 创意编程爱好者</p>
+            <a href="#contact" class="btn">联系我</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="img/唐三.jpg" alt="张运濠的照片" class="avatar-photo">
+            </div>
+            <div class="about-text">
+                <div class="about-info-item">
+                    <h3 class="info-label">姓名</h3>
+                    <p class="info-value">张运濠</p>
+                </div>
+                <div class="about-info-item">
+                    <h3 class="info-label">专业特长</h3>
+                    <p class="info-value">前端开发 | 响应式设计 | UI/UX设计</p>
+                </div>
+                <div class="about-info-item">
+                    <h3 class="info-label">人生座右铭</h3>
+                    <p class="info-value">"学无止境，精益求精"</p>
+                </div>
+                <div class="about-description">
+                    <p>我是一名热爱前端开发的学习者，专注于创建美观、响应式的网页。目前我正在学习HTML、CSS等前端技术，并希望不断提升自己的技能。</p>
+                    <p>我相信通过持续学习和实践，能够创建出优秀的网页作品。如果你对我的项目感兴趣，或者想要合作，欢迎随时联系我！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>我的技能</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>响应式设计</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>UI设计</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>我的项目</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="img/无畏.png" alt="无畏项目背景" class="project-img">
+                <div class="project-info">
+                    <h3>无畏</h3>
+                    <p>这是一个充满挑战和勇气的项目，展示了我面对困难时的无畏精神和解决问题的能力。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/好看.png" alt="项目二背景" class="project-img">
+                <div class="project-info">
+                    <h3>项目二</h3>
+                    <p>这是一个个人博客网站的设计，包含了文章展示、分类和评论功能。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/666.png" alt="项目三背景" class="project-img">
+                <div class="project-info">
+                    <h3>项目三</h3>
+                    <p>这是一个作品集网站，展示了我所有的项目和设计作品。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>联系方式</h3>
+                <p>邮箱: 1745417060@qq.com</p>
+                <p>电话: 155-2344-2726</p>
+                <p>地址: 中国，重庆</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="你的名字" required>
+                    <input type="email" placeholder="你的邮箱" required>
+                    <textarea placeholder="你的留言" rows="5" required></textarea>
+                    <button type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 我的个人网站. 保留所有权利.</p>
+    </footer>
+</body>
+
+</html>
